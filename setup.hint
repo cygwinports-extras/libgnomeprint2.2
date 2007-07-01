@@ -1,5 +1,5 @@
 category: Gnome
-requires: cygwin glib2-runtime libart_lgpl2 libfontconfig1 libxml2 pango-runtime
+requires: cygwin glib2 libart_lgpl2 libfontconfig1 libfreetype26 libintl8 libxml2 pango zlib
 sdesc: "GNOME Printing Architecture back-end library (runtime)"
 ldesc: "This is a back-end implementation of the Gnome Printing 
 Architecture."
