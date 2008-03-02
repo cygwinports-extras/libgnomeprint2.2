@@ -22,8 +22,8 @@ from Adobe Reader.
 
 Runtime requirements:
   cygwin-1.5.25-7
-  glib2-2.14.5-1
-  libart_lgpl2-2.3.19-1
+  glib2-2.14.6-1
+  libart_lgpl2-2.3.20-1
   libfontconfig1-2.3.2-2
   libfreetype26-2.3.5-1
   libintl8-0.15-1
@@ -33,11 +33,10 @@ Runtime requirements:
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygwin-1.5.25-7
   autoconf2.5-2.61-1
   automake1.10-1.10-1
   binutils-20060817-1
-  cygport-0.3.7-1
+  cygport-0.3.8-1
   gawk-3.1.6-1
   gcc-core-3.4.4-3
   gtk-doc-1.9-1
@@ -53,16 +52,16 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack libgnomeprint22-2.18.3-X-src.tar.bz2
+  unpack libgnomeprint22-2.18.4-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libgnomeprint22-2.18.3-X.cygport all
+  cygport ./libgnomeprint22-2.18.4-X.cygport all
 
 This will create:
-  /usr/src/libgnomeprint22-2.18.3-X-src.tar.bz2
-  /usr/src/libgnomeprint22-2.18.3-X.tar.bz2
-  /usr/src/libgnomeprint22-devel-2.18.3-X.tar.bz2
+  /usr/src/libgnomeprint22-2.18.4-X-src.tar.bz2
+  /usr/src/libgnomeprint22-2.18.4-X.tar.bz2
+  /usr/src/libgnomeprint22-devel-2.18.4-X.tar.bz2
 
 -------------------------------------------
 
@@ -70,51 +69,51 @@ Files included in the binary packages:
 
 (libgnomeprint22)
   /usr/bin/cyggnomeprint-2-2-0.dll
-  /usr/lib/libgnomeprint/2.18.3/modules/cyggnomeprintlpd.dll
-  /usr/lib/libgnomeprint/2.18.3/modules/filters/cyggnomeprint-clip.dll
-  /usr/lib/libgnomeprint/2.18.3/modules/filters/cyggnomeprint-draft.dll
-  /usr/lib/libgnomeprint/2.18.3/modules/filters/cyggnomeprint-frgba.dll
-  /usr/lib/libgnomeprint/2.18.3/modules/filters/cyggnomeprint-multipage.dll
-  /usr/lib/libgnomeprint/2.18.3/modules/filters/cyggnomeprint-position.dll
-  /usr/lib/libgnomeprint/2.18.3/modules/filters/cyggnomeprint-reorder.dll
-  /usr/lib/libgnomeprint/2.18.3/modules/filters/cyggnomeprint-reverse.dll
-  /usr/lib/libgnomeprint/2.18.3/modules/filters/cyggnomeprint-rotate.dll
-  /usr/lib/libgnomeprint/2.18.3/modules/filters/cyggnomeprint-select.dll
-  /usr/lib/libgnomeprint/2.18.3/modules/filters/cyggnomeprint-zoom.dll
-  /usr/lib/libgnomeprint/2.18.3/modules/filters/libgnomeprint-clip.la
-  /usr/lib/libgnomeprint/2.18.3/modules/filters/libgnomeprint-draft.la
-  /usr/lib/libgnomeprint/2.18.3/modules/filters/libgnomeprint-frgba.la
-  /usr/lib/libgnomeprint/2.18.3/modules/filters/libgnomeprint-multipage.la
-  /usr/lib/libgnomeprint/2.18.3/modules/filters/libgnomeprint-position.la
-  /usr/lib/libgnomeprint/2.18.3/modules/filters/libgnomeprint-reorder.la
-  /usr/lib/libgnomeprint/2.18.3/modules/filters/libgnomeprint-reverse.la
-  /usr/lib/libgnomeprint/2.18.3/modules/filters/libgnomeprint-rotate.la
-  /usr/lib/libgnomeprint/2.18.3/modules/filters/libgnomeprint-select.la
-  /usr/lib/libgnomeprint/2.18.3/modules/filters/libgnomeprint-zoom.la
-  /usr/lib/libgnomeprint/2.18.3/modules/libgnomeprintlpd.la
-  /usr/lib/libgnomeprint/2.18.3/modules/transports/cyggnomeprint-custom.dll
-  /usr/lib/libgnomeprint/2.18.3/modules/transports/cyggnomeprint-file.dll
-  /usr/lib/libgnomeprint/2.18.3/modules/transports/cyggnomeprint-lpr.dll
-  /usr/lib/libgnomeprint/2.18.3/modules/transports/libgnomeprint-custom.la
-  /usr/lib/libgnomeprint/2.18.3/modules/transports/libgnomeprint-file.la
-  /usr/lib/libgnomeprint/2.18.3/modules/transports/libgnomeprint-lpr.la
-  /usr/share/doc/Cygwin/libgnomeprint22-2.18.3.README
-  /usr/share/doc/libgnomeprint22-2.18.3/AUTHORS
-  /usr/share/doc/libgnomeprint22-2.18.3/BUGS
-  /usr/share/doc/libgnomeprint22-2.18.3/COPYING
-  /usr/share/doc/libgnomeprint22-2.18.3/COPYING.LIB
-  /usr/share/doc/libgnomeprint22-2.18.3/ChangeLog
-  /usr/share/doc/libgnomeprint22-2.18.3/INSTALL
-  /usr/share/doc/libgnomeprint22-2.18.3/MAINTAINERS
-  /usr/share/doc/libgnomeprint22-2.18.3/NEWS
-  /usr/share/doc/libgnomeprint22-2.18.3/README
-  /usr/share/libgnomeprint/2.18.3/globals.xml
-  /usr/share/libgnomeprint/2.18.3/models/GNOME-GENERIC-PS.xml
-  /usr/share/libgnomeprint/2.18.3/models/GNOME-META.xml
-  /usr/share/libgnomeprint/2.18.3/models/GNOME-PDF-WRITER.xml
-  /usr/share/libgnomeprint/2.18.3/printers/GENERIC.xml
-  /usr/share/libgnomeprint/2.18.3/printers/META.xml
-  /usr/share/libgnomeprint/2.18.3/printers/PDF-WRITER.xml
+  /usr/lib/libgnomeprint/2.18.4/modules/cyggnomeprintlpd.dll
+  /usr/lib/libgnomeprint/2.18.4/modules/filters/cyggnomeprint-clip.dll
+  /usr/lib/libgnomeprint/2.18.4/modules/filters/cyggnomeprint-draft.dll
+  /usr/lib/libgnomeprint/2.18.4/modules/filters/cyggnomeprint-frgba.dll
+  /usr/lib/libgnomeprint/2.18.4/modules/filters/cyggnomeprint-multipage.dll
+  /usr/lib/libgnomeprint/2.18.4/modules/filters/cyggnomeprint-position.dll
+  /usr/lib/libgnomeprint/2.18.4/modules/filters/cyggnomeprint-reorder.dll
+  /usr/lib/libgnomeprint/2.18.4/modules/filters/cyggnomeprint-reverse.dll
+  /usr/lib/libgnomeprint/2.18.4/modules/filters/cyggnomeprint-rotate.dll
+  /usr/lib/libgnomeprint/2.18.4/modules/filters/cyggnomeprint-select.dll
+  /usr/lib/libgnomeprint/2.18.4/modules/filters/cyggnomeprint-zoom.dll
+  /usr/lib/libgnomeprint/2.18.4/modules/filters/libgnomeprint-clip.la
+  /usr/lib/libgnomeprint/2.18.4/modules/filters/libgnomeprint-draft.la
+  /usr/lib/libgnomeprint/2.18.4/modules/filters/libgnomeprint-frgba.la
+  /usr/lib/libgnomeprint/2.18.4/modules/filters/libgnomeprint-multipage.la
+  /usr/lib/libgnomeprint/2.18.4/modules/filters/libgnomeprint-position.la
+  /usr/lib/libgnomeprint/2.18.4/modules/filters/libgnomeprint-reorder.la
+  /usr/lib/libgnomeprint/2.18.4/modules/filters/libgnomeprint-reverse.la
+  /usr/lib/libgnomeprint/2.18.4/modules/filters/libgnomeprint-rotate.la
+  /usr/lib/libgnomeprint/2.18.4/modules/filters/libgnomeprint-select.la
+  /usr/lib/libgnomeprint/2.18.4/modules/filters/libgnomeprint-zoom.la
+  /usr/lib/libgnomeprint/2.18.4/modules/libgnomeprintlpd.la
+  /usr/lib/libgnomeprint/2.18.4/modules/transports/cyggnomeprint-custom.dll
+  /usr/lib/libgnomeprint/2.18.4/modules/transports/cyggnomeprint-file.dll
+  /usr/lib/libgnomeprint/2.18.4/modules/transports/cyggnomeprint-lpr.dll
+  /usr/lib/libgnomeprint/2.18.4/modules/transports/libgnomeprint-custom.la
+  /usr/lib/libgnomeprint/2.18.4/modules/transports/libgnomeprint-file.la
+  /usr/lib/libgnomeprint/2.18.4/modules/transports/libgnomeprint-lpr.la
+  /usr/share/doc/Cygwin/libgnomeprint22-2.18.4.README
+  /usr/share/doc/libgnomeprint22-2.18.4/AUTHORS
+  /usr/share/doc/libgnomeprint22-2.18.4/BUGS
+  /usr/share/doc/libgnomeprint22-2.18.4/COPYING
+  /usr/share/doc/libgnomeprint22-2.18.4/COPYING.LIB
+  /usr/share/doc/libgnomeprint22-2.18.4/ChangeLog
+  /usr/share/doc/libgnomeprint22-2.18.4/INSTALL
+  /usr/share/doc/libgnomeprint22-2.18.4/MAINTAINERS
+  /usr/share/doc/libgnomeprint22-2.18.4/NEWS
+  /usr/share/doc/libgnomeprint22-2.18.4/README
+  /usr/share/libgnomeprint/2.18.4/globals.xml
+  /usr/share/libgnomeprint/2.18.4/models/GNOME-GENERIC-PS.xml
+  /usr/share/libgnomeprint/2.18.4/models/GNOME-META.xml
+  /usr/share/libgnomeprint/2.18.4/models/GNOME-PDF-WRITER.xml
+  /usr/share/libgnomeprint/2.18.4/printers/GENERIC.xml
+  /usr/share/libgnomeprint/2.18.4/printers/META.xml
+  /usr/share/libgnomeprint/2.18.4/printers/PDF-WRITER.xml
   /usr/share/locale/am/LC_MESSAGES/libgnomeprint-2.2.mo
   /usr/share/locale/ar/LC_MESSAGES/libgnomeprint-2.2.mo
   /usr/share/locale/az/LC_MESSAGES/libgnomeprint-2.2.mo
@@ -258,6 +257,9 @@ Files included in the binary packages:
 --------------------
 
 Port Notes:
+
+----- version 2.18.4-1 -----
+Version bump.
 
 ----- version 2.18.3-1 -----
 Version bump.
