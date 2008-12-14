@@ -1,0 +1,4 @@
+category: Gnome
+sdesc: "GNOME Printing Architecture back-end library (sources)"
+ldesc: "This is a back-end implementation of the Gnome Printing 
+Architecture."

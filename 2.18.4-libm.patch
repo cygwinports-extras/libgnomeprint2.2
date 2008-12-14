@@ -1,0 +1,21 @@
+--- origsrc/libgnomeprint-2.18.4/configure.in	2008-02-12 13:42:49.000000000 -0600
++++ src/libgnomeprint-2.18.4/configure.in	2008-03-01 21:38:55.906250000 -0600
+@@ -148,9 +148,15 @@
+ dnl Checking for libm
+ dnl =================================
+ AC_CHECK_LIBM
+-if test "x$LIBM" = "x"; then
+-	AC_MSG_ERROR(You need -lm(mathematic library) for this version of libgnomeprint.)
+-fi
++case "$host_os" in
++	beos* | cygwin* | pw32* | darwin*)
++		# These systems don't have libm, or don't need it
++		;;
++	*)
++		if test "x$LIBM" = "x"; then
++			AC_MSG_ERROR(You need -lm(mathematic library) for this version of libgnomeprint.)
++		fi ;;
++esac
+ LDFLAGS="$LDFLAGS $LIBM"
+ 
+ dnl =================================
