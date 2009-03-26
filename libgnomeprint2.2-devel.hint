@@ -1,5 +1,5 @@
 category: Gnome
-requires: cygwin libgnomeprint2.2_0 libart_lgpl_2-devel libfontconfig-devel libfreetype2-devel libglib2.0-devel gettext libpango1.0-devel libxml2-devel zlib
+requires: cygwin libgnomeprint2.2_0 libart_lgpl_2-devel libfontconfig-devel libfreetype-devel libglib2.0-devel gettext libpango1.0-devel libxml2-devel zlib-devel
 external-source: libgnomeprint2.2
 sdesc: "GNOME Printing Architecture back-end library (development)"
 ldesc: "This is a back-end implementation of the Gnome Printing 
