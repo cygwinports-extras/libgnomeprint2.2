@@ -3,11 +3,6 @@ inherit gnome2
 
 DESCRIPTION="GNOME printing backend library"
 
-PATCH_URI="
-	2.18.4-libm.patch
-	2.18.4-not-win32.patch
-"
-
 PKG_NAMES="${PN} ${PN}_0 ${PN}-devel"
 libgnomeprint2_2_0_CONTENTS="--exclude=gtk-doc usr/bin/*-2-2-0.dll
                              usr/lib/${ORIG_PN}/ usr/share/"
